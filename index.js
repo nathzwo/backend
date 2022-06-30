@@ -13,7 +13,7 @@ app.engine(
     layoutsDir: path.join(app.get("views"), "layouts"),
     partialsDir: path.join(app.get("views"), "partials"),
     extname: ".hbs",
-    helpers: require("./lib/handlebars"),
+    helpers: require("./src/lib/handlebars"),
   })
 );
 app.set("view engine ", ".hbs");
@@ -26,9 +26,9 @@ app.use((req, res, next) => {
   next();
 });
 //rutas
-app.use(require("./routes"));
-app.use(require("./routes/authetication"));
-app.use('/links', require('./routes/links'));
+app.use(require("./src/routes/index"));
+app.use(require("./src/routes/authetication"));
+app.use('/links', require('./src/routes/links'));
 
 //public
 app.use(express.static(path.join(__dirname, "public")));
