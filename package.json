@@ -1,0 +1,35 @@
+{
+  "name": "backendss",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathzwo/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathzwo/backend/issues"
+  },
+  "homepage": "https://github.com/nathzwo/backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.18",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  }
+}
